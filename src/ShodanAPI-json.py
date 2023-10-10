@@ -1,12 +1,9 @@
+#!/usr/bin/env python3
 import os
 import shodan
 import json
-
-# Read Shodan API key from the environment variable
-SHODAN_API_KEY = os.getenv('SHODAN_API_KEY')
-
-# Read Shodan query from the environment variable or provide a default query
-SHODAN_QUERY = os.getenv('SHODAN_QUERY')
+SHODAN_API_KEY = input('YOUR API KEY? ')
+SHODAN_QUERY = input('YOUR QUERY? ')
 
 def shodan_search(api_key, query):
     try:
