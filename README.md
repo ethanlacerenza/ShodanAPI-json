@@ -15,48 +15,13 @@ Before using this script, you need to have the following:
    ```
    git clone https://github.com/yourusername/shodan-search-tool.git
    ```
-Navigate to the project directory:
-
-
-   ```
-   cd shodan-search-tool
-   ```
-Set your Shodan API key as an environment variable:
-
-On Windows:
-
+Navigate to the project directory and execute the following command:
 
    ```
-   set SHODAN_API_KEY=your_shodan_api_key
+   python3 src/ShodanAPI-json.py
    ```
-On Linux/macOS:
+   
 
-
-   ```
-   export SHODAN_API_KEY=your_shodan_api_key
-   ```
-Optionally, set Shodan tags as environment variables (if you want to specify tags for your search):
-
-On Windows:
-
-   ```
-
-   set SHODAN_TAGS=your_shodan_tags
-   ```
-On Linux/macOS:
-
-   ```
-
-   export SHODAN_TAGS=your_shodan_tags
-   ```
-Usage
-To run the script, execute the following command:
-
-   ```
-
-   python3 shodan_search.py
-   ```
-Replace your_shodan_api_key with your actual Shodan API key and your_shodan_tags with any tags you want to use for the search.
 
 The script will perform the Shodan search, format the results, and save them to a JSON file named shodan_results.json in the same directory.
 
