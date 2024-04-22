@@ -33,4 +33,3 @@ Feel free to customize and extend this script to suit your needs.
 css
 
 
-You can copy and paste this code block into your README file. Make sure to replace `yourusername` in the clone URL with your actual GitHub username and include a `LICENSE.md` file if you have a specific license for your project.
